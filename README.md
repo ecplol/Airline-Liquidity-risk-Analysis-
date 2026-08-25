@@ -1,6 +1,6 @@
 # Airline balance-sheet risk & valuation
 
-Working capital, liquidity stress and trading multiples for four European carriers — Ryanair (`RYAAY`), Lufthansa (`LHA.DE`), Air France-KLM (`AF.PA`) and IAG (`IAG.L`) — built from filed annual statements in one reproducible notebook.
+Working capital, liquidity stress and trading multiples for four European carriers Ryanair (`RYAAY`), Lufthansa (`LHA.DE`), Air France-KLM (`AF.PA`) and IAG (`IAG.L`) — built from filed annual statements in one reproducible notebook.
 
 **📊 [Read the site → ecplol.github.io/Valuation-project](https://ecplol.github.io/Valuation-project/)**
 
