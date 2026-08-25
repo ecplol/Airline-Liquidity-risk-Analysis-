@@ -27,11 +27,11 @@ With that caveat, the direction is unambiguous and it is confirmed by the quadra
 
 ## What that means for each name
 
-**Ryanair (score 90.7, 6.0x)** — the most expensive carrier in the group and, on the equal-weighted composite, the most resilient. Net cash, a 1-day collection cycle and a -39% breakeven. The premium is defensible on the balance sheet; whether 1.9x the peer median is the *right* premium is a judgement this analysis does not attempt.
+**Ryanair (score 90.7, 6.1x)** — the most expensive carrier in the group and, on the equal-weighted composite, the most resilient. Net cash, a 1-day collection cycle and a -39% breakeven. The premium is defensible on the balance sheet; whether 1.9x the peer median is the *right* premium is a judgement this analysis does not attempt.
 
 **IAG (score 92.9, 3.6x)** — the most interesting position on the chart. It ranks first on the judgement-weighted composite and is best or near-best on four of five component metrics, yet it trades only slightly above the peer median and at 60% of Ryanair's multiple. If anything on this chart approaches the empty resilient-and-cheap quadrant, it is IAG.
 
-**Air France-KLM (score 62.2, 2.5x)** — cheap on every enterprise multiple, and the composite says the discount is not baseless: a cash cycle that has gone to zero and the worst current ratio in the group. But it also ties the leaders on both stress metrics. The thin equity slice on a €14.6bn enterprise means the multiple is doing double duty as a leverage signal.
+**Air France-KLM (score 62.2, 2.4x)** — cheap on every enterprise multiple, and the composite says the discount is not baseless: a cash cycle that has gone to zero and the worst current ratio in the group. But it also ties the leaders on both stress metrics. The thin equity slice on a €14.6bn enterprise means the multiple is doing double duty as a leverage signal.
 
 **Lufthansa (score 13.8, 3.2x)** — the position that does *not* fit the pattern. It scores 48 points below third place, is the only carrier that breaks at a -24% shock, and is the only one with negative free cash flow — yet it trades *above* Air France-KLM on EV/EBITDA and close to IAG. The correlation is positive overall, but this is the point where the market is charging least like the balance sheet suggests it should.
 

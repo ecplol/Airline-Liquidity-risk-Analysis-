@@ -1,4 +1,4 @@
-# Airline balance-sheet risk & valuation
+# Airline liquidity risk & valuation
 
 <p class="lede">Four European carriers, two questions. How long does each one survive a demand shock — and does the market charge for that survival? Everything here is computed from filed annual statements by <a href="notebook/main.ipynb">one reproducible notebook</a>.</p>
 
