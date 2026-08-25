@@ -44,3 +44,266 @@
   font-weight: 700;
   background: var(--md-default-fg-color--lightest);
 }
+
+/* ---------------------------------------------------------------------------
+   Scenario lab
+   Colours come from Material's own custom properties, so the panels follow the
+   light/dark toggle without a second palette to maintain.
+   --------------------------------------------------------------------------- */
+
+.sl-panel {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0 1.4rem;
+  background: var(--md-default-bg-color);
+}
+
+.sl-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+  gap: 0.7rem;
+}
+
+.sl-field { display: flex; flex-direction: column; gap: 0.2rem; }
+
+.sl-field label {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light);
+}
+
+.sl-field input,
+.sl-field select {
+  font: inherit;
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 3px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  width: 100%;
+}
+
+.sl-field input:focus,
+.sl-field select:focus {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: -1px;
+}
+
+.sl-sliders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.sl-slider label,
+.wl-row label {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.2rem;
+}
+
+.sl-slider output,
+.wl-row output {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color);
+}
+
+.sl-slider input[type="range"],
+.wl-row input[type="range"] {
+  width: 100%;
+  accent-color: var(--md-accent-fg-color);
+}
+
+/* result tiles */
+.sl-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.sl-tile {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left-width: 3px;
+  border-radius: 3px;
+  padding: 0.6rem 0.7rem;
+}
+
+.sl-tile-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light);
+}
+
+.sl-tile-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+}
+
+.sl-tile-note { font-size: 0.62rem; color: var(--md-default-fg-color--light); }
+
+/* State colours are readable on both themes and never carry meaning alone -
+   the tile label and note always say what the number is. */
+.sl-ok      { border-left-color: #2e7d32; }
+.sl-warn    { border-left-color: #e08600; }
+.sl-bad     { border-left-color: #c62828; }
+.sl-neutral { border-left-color: var(--md-default-fg-color--lighter); }
+
+.sl-empty {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  padding: 0.6rem 0;
+}
+
+/* inline svg chart */
+.sl-chart { margin-top: 1rem; overflow-x: auto; }
+.sl-chart svg { width: 100%; min-width: 460px; height: auto; display: block; }
+.sl-line { fill: none; stroke: var(--md-accent-fg-color); stroke-width: 2.2; }
+.sl-grid { stroke: var(--md-default-fg-color--lightest); stroke-width: 1; }
+.sl-axis { fill: var(--md-default-fg-color--light); font-size: 10px; }
+.sl-axis-title { font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em; }
+.sl-be { stroke: var(--md-default-fg-color--light); stroke-width: 1; stroke-dasharray: 4 4; }
+.sl-be-label { fill: var(--md-default-fg-color--light); font-size: 10px; }
+.sl-cursor { stroke: var(--md-accent-fg-color); stroke-width: 1; opacity: 0.55; }
+
+.sl-peers, .rc-results, .vl-bridge { margin-top: 1rem; overflow-x: auto; }
+
+.sl-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.sl-panel th, .sl-panel td {
+  text-align: right;
+  padding: 0.32rem 0.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.sl-panel th:first-child, .sl-panel td:first-child { text-align: left; }
+
+.sl-panel th {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light);
+  font-weight: 600;
+}
+
+.sl-dot {
+  display: inline-block;
+  width: 0.55em;
+  height: 0.55em;
+  border-radius: 50%;
+  margin-right: 0.4em;
+  vertical-align: baseline;
+}
+
+/* weight lab */
+.wl-weights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.8rem;
+}
+
+.wl-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.9rem;
+}
+
+.wl-total {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.wl-total.warn { color: #e08600; }
+.wl-total-note { font-size: 0.68rem; color: var(--md-default-fg-color--light); }
+.wl-buttons { margin-left: auto; display: flex; gap: 0.4rem; }
+.wl-buttons .md-button { padding: 0.15rem 0.6rem; font-size: 0.66rem; }
+
+.wl-results { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.4rem; }
+
+.wl-bar-row {
+  display: grid;
+  grid-template-columns: 1.4rem minmax(110px, 1fr) 3fr 3rem;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.wl-rank {
+  font-weight: 700;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+
+.wl-bar {
+  display: block;
+  height: 0.65rem;
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.wl-bar > span { display: block; height: 100%; transition: width 0.12s ease-out; }
+
+.wl-score { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.wl-order {
+  margin-top: 0.9rem;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ratio calculator */
+.rc-controls { grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); }
+.rc-actions { margin: 0.9rem 0 0; }
+.rc-actions .md-button { padding: 0.15rem 0.6rem; font-size: 0.66rem; }
+
+.rc-band {
+  font-size: 0.64rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.rc-ok   { background: rgba(46, 125, 50, 0.16);  color: #2e7d32; }
+.rc-warn { background: rgba(224, 134, 0, 0.16);  color: #b36c00; }
+.rc-bad  { background: rgba(198, 40, 40, 0.16);  color: #c62828; }
+
+[data-md-color-scheme="slate"] .rc-ok   { color: #7bc47f; }
+[data-md-color-scheme="slate"] .rc-warn { color: #f0b429; }
+[data-md-color-scheme="slate"] .rc-bad  { color: #ef8a8a; }
+[data-md-color-scheme="slate"] .wl-total.warn { color: #f0b429; }
+[data-md-color-scheme="slate"] .sl-ok   { border-left-color: #7bc47f; }
+[data-md-color-scheme="slate"] .sl-warn { border-left-color: #f0b429; }
+[data-md-color-scheme="slate"] .sl-bad  { border-left-color: #ef8a8a; }
+
+.vl-bridge table td:first-child { color: var(--md-default-fg-color--light); }
+.vl-bridge tr.vl-total td {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  border-top: 2px solid var(--md-default-fg-color--lighter);
+}
+
+@media screen and (max-width: 44.9em) {
+  .wl-bar-row { grid-template-columns: 1.2rem minmax(80px, 1fr) 2fr 2.6rem; font-size: 0.7rem; }
+  .wl-buttons { margin-left: 0; }
+}
