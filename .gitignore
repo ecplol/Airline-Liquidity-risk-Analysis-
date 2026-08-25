@@ -16,3 +16,6 @@ site/
 
 # mkdocs-jupyter render cache
 .cache/
+
+# Private outreach record - contains contact addresses, do not publish
+outreach-log.md
