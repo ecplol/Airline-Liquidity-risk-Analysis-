@@ -5,8 +5,8 @@
 ## Run the analysis
 
 ```bash
-git clone https://github.com/ecplol/Valuation-project.git
-cd Valuation-project
+git clone https://github.com/ecplol/Airline-Liquidity-risk-Analysis-.git
+cd Airline-Liquidity-risk-Analysis-
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -71,7 +71,7 @@ mkdocs serve                  # http://127.0.0.1:8000
 mkdocs gh-deploy
 ```
 
-This builds the site and force-pushes it to the `gh-pages` branch, where GitHub Pages serves it from <https://ecplol.github.io/Valuation-project/>.
+This builds the site and force-pushes it to the `gh-pages` branch, where GitHub Pages serves it from <https://ecplol.github.io/Airline-Liquidity-risk-Analysis-/>.
 
 !!! danger "gh-deploy force-pushes"
     It overwrites `gh-pages` entirely and does not commit your source changes. Commit and push `main` separately — the deployed site and the repository can otherwise silently diverge.
@@ -79,7 +79,7 @@ This builds the site and force-pushes it to the `gh-pages` branch, where GitHub 
 ## Project layout
 
 ```text
-Valuation-project/
+Airline-Liquidity-risk-Analysis-/
 ├── main.ipynb              # the analysis - single source of truth
 ├── output/                 # notebook artefacts (charts, CSVs)
 ├── docs/                   # site content

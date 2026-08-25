@@ -4,10 +4,10 @@ site_description: >-
   carriers - Ryanair, Lufthansa, Air France-KLM and IAG - built from filed
   statements with a reproducible notebook.
 site_author: Eddie Chiu
-site_url: https://ecplol.github.io/Valuation-project/
+site_url: https://ecplol.github.io/Airline-Liquidity-risk-Analysis-/
 
-repo_url: https://github.com/ecplol/Valuation-project
-repo_name: ecplol/Valuation-project
+repo_url: https://github.com/ecplol/Airline-Liquidity-risk-Analysis-
+repo_name: ecplol/Airline-Liquidity-risk-Analysis-
 edit_uri: edit/main/docs/
 
 copyright: >-

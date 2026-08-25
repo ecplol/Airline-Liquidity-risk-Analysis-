@@ -2,7 +2,7 @@
 
 Working capital, liquidity stress and trading multiples for four European carriers Ryanair (`RYAAY`), Lufthansa (`LHA.DE`), Air France-KLM (`AF.PA`) and IAG (`IAG.L`) — built from filed annual statements in one reproducible notebook.
 
-**📊 [Read the site → ecplol.github.io/Valuation-project](https://ecplol.github.io/Valuation-project/)**
+**📊 [Read the site → ecplol.github.io/Airline-Liquidity-risk-Analysis-](https://ecplol.github.io/Airline-Liquidity-risk-Analysis-/)**
 
 Two questions: how long does each carrier survive a demand shock, and does the market charge for that survival?
 
@@ -47,4 +47,4 @@ mkdocs gh-deploy              # publish to the gh-pages branch
 
 ## Disclaimer
 
-Educational analysis of public filings, built to demonstrate financial-statement modelling in Python. Not investment advice, not a recommendation, and not tied back to the primary annual reports. See [Limitations](https://ecplol.github.io/Valuation-project/limitations/).
+Educational analysis of public filings, built to demonstrate financial-statement modelling in Python. Not investment advice, not a recommendation, and not tied back to the primary annual reports. See [Limitations](https://ecplol.github.io/Airline-Liquidity-risk-Analysis-/limitations/).
