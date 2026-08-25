@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-docs/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MkDocs build output (gh-deploy publishes this, it is not source)
+site/
+
+# macOS
+.DS_Store
+
+# mkdocs-jupyter render cache
+.cache/

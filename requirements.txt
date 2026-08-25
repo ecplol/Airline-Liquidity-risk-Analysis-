@@ -1,0 +1,6 @@
+# Notebook dependencies - main.ipynb
+yfinance>=0.2.40
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+jupyterlab>=4.0

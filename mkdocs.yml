@@ -1,0 +1,111 @@
+site_name: Airline Balance-Sheet Risk & Valuation
+site_description: >-
+  Working capital, liquidity stress and trading multiples for four European
+  carriers - Ryanair, Lufthansa, Air France-KLM and IAG - built from filed
+  statements with a reproducible notebook.
+site_author: Eddie Chiu
+site_url: https://ecplol.github.io/Valuation-project/
+
+repo_url: https://github.com/ecplol/Valuation-project
+repo_name: ecplol/Valuation-project
+edit_uri: edit/main/docs/
+
+copyright: >-
+  Educational analysis of public filings. Not investment advice.
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/airplane
+    repo: fontawesome/brands/github
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system theme
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      # Render the committed copy of the notebook from its stored outputs.
+      # Executing at build time would hit the Yahoo endpoint on every build and
+      # silently change the numbers the prose quotes.
+      execute: false
+      include_source: true
+      include_requirejs: true
+      ignore_h1_titles: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+
+extra_css:
+  - assets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ecplol
+      name: GitHub
+  generator: false
+
+nav:
+  - Overview: index.md
+  - Findings:
+      - Working capital & the cash cycle: working-capital.md
+      - Liquidity ratios: liquidity.md
+      - Liquidity stress test: stress-test.md
+      - Composite risk ranking: composite-risk.md
+      - Enterprise value & multiples: valuation.md
+      - Is resilience priced?: risk-vs-value.md
+  - Reference:
+      - Method & data: methodology.md
+      - Limitations: limitations.md
+      - Reproduce it: reproduce.md
+      - Full notebook: notebook/main.ipynb
