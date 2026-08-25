@@ -56,5 +56,23 @@
 
 </div>
 
+## Put it to work
+
+<div class="grid cards" markdown>
+
+-   :material-table-large: **[Scorecard](scorecard.md)**
+
+    Every metric for all four carriers on one page, with a profile card per carrier — strengths, weaknesses and what would change the read.
+
+-   :material-magnify-scan: **[For investors](for-investors.md)**
+
+    What the screen can and cannot do, six monitoring triggers with thresholds, and the questions this analysis hands to IR.
+
+-   :material-office-building-cog: **[Inside a company](for-operators.md)**
+
+    The eight ledger lines that reproduce all of this, a peer benchmark table, and why breakeven shock beats months-of-cash as a treasury KPI.
+
+</div>
+
 !!! warning "Scope"
     This is an educational analysis of public filings, built to demonstrate financial-statement modelling in Python. It is not investment advice, not a recommendation, and not a substitute for reading the accounts. Figures come from Yahoo Finance's normalised statement feed and have not been tied back to the primary annual reports — see [Limitations](limitations.md).

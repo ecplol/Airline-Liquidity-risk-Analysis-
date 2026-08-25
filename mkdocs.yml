@@ -104,6 +104,10 @@ nav:
       - Composite risk ranking: composite-risk.md
       - Enterprise value & multiples: valuation.md
       - Is resilience priced?: risk-vs-value.md
+  - Using it:
+      - Scorecard: scorecard.md
+      - For investors: for-investors.md
+      - Inside a company: for-operators.md
   - Reference:
       - Method & data: methodology.md
       - Limitations: limitations.md
