@@ -59,6 +59,9 @@ The order is unchanged across the range. The ranking is **not** an artefact of t
 
 ## Stress test 2 — the weights
 
+!!! tip "Move the weights yourself"
+    The [Scenario lab](scenario-lab.md#2-weight-lab) re-ranks live as you drag each weight. The component scores stay fixed, so what you are changing is the opinion, not the evidence.
+
 The weights are a judgement call, so re-rank at a flat 20% each:
 
 | Ticker | Judgement score | Rank | Equal score | Rank |

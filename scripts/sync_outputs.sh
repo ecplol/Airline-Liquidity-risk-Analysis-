@@ -23,3 +23,9 @@ cp output/*.png output/*.csv docs/assets/
 cp main.ipynb docs/notebook/main.ipynb
 
 echo "synced $(ls output | wc -l | tr -d ' ') artefacts + main.ipynb into docs/"
+
+# The Scenario lab reads its own JSON, derived from the same artefacts. --verify
+# round-trips the recovered revenue/cost inputs back through the notebook's
+# forward model, so a bad sync fails here rather than silently shipping a
+# calculator that disagrees with the published tables.
+python3 scripts/build_scenario_data.py --verify

@@ -64,6 +64,10 @@
 
     Every metric for all four carriers on one page, with a profile card per carrier — strengths, weaknesses and what would change the read.
 
+-   :material-tune-variant: **[Scenario lab](scenario-lab.md)**
+
+    Four interactive calculators. Change the cost split, re-weight the ranking, drop in your own accounts, re-rate the bridge — all in your browser.
+
 -   :material-magnify-scan: **[For investors](for-investors.md)**
 
     What the screen can and cannot do, six monitoring triggers with thresholds, and the questions this analysis hands to IR.

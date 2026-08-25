@@ -43,6 +43,9 @@ Read the breakeven column first. Three carriers absorb a **-39% to -43%** revenu
 
 The -40% column makes the gap concrete. It is a survivable event for three carriers and a **four-month** event for Lufthansa.
 
+!!! tip "Run your own shock"
+    The [Scenario lab](scenario-lab.md#1-stress-lab) has this model as a live calculator — move the shock and the cost split, or substitute your own revenue, cost and cash.
+
 ## Sensitivity to the cost split
 
 Months of liquidity at -40% revenue, re-run across the assumption:

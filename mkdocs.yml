@@ -88,6 +88,9 @@ markdown_extensions:
 extra_css:
   - assets/extra.css
 
+extra_javascript:
+  - assets/scenario.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -106,6 +109,7 @@ nav:
       - Is resilience priced?: risk-vs-value.md
   - Using it:
       - Scorecard: scorecard.md
+      - Scenario lab: scenario-lab.md
       - For investors: for-investors.md
       - Inside a company: for-operators.md
   - Reference:

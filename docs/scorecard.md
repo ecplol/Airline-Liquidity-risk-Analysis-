@@ -98,6 +98,9 @@
 
     **What would change the read.** Rebuilding cash toward a 0.15–0.20 cash ratio, or FCF turning positive. Note that the model excludes external liquidity, and Lufthansa's access to it is arguably the best of the four — 2020 is the evidence.
 
+!!! tip "Change the assumptions"
+    Every figure above is one set of assumptions. The [Scenario lab](scenario-lab.md) lets you vary the cost split, the composite weights and the target multiple, and see which of these numbers hold.
+
 ## Where each number comes from
 
 | Block | Page | Raw data |

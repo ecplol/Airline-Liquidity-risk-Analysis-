@@ -41,6 +41,9 @@ If you already hold or follow these names, these are the lines worth re-checking
 
 The DPO trigger is the least obvious and possibly the most useful. Payables terms tighten before anything shows up in a ratio, because suppliers reprice risk faster than markets do.
 
+!!! tip "Test a trigger before you adopt it"
+    The [Scenario lab](scenario-lab.md) lets you check what any of these thresholds implies. Setting a breakeven-shock floor is easier once you have watched the curve move.
+
 ## Questions this analysis hands to IR
 
 The model's biggest gaps are all disclosable. If you can get answers to these, you can replace the assumptions with facts:

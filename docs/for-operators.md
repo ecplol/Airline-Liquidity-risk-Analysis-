@@ -66,6 +66,9 @@ Pair it with months of liquidity rather than replacing it. Breakeven tells you w
 !!! warning "Calibrate the cost split before you trust the number"
     Everything here assumes 55% of cost of revenue is variable. **You know your actual split and this site does not.** Substitute it — the [sensitivity analysis](stress-test.md#sensitivity-to-the-cost-split) shows a 45–65% range moving one carrier's runway by 2.5x. Also note this model uses cost of revenue only; if your SG&A is material, include it as fixed and your breakeven will be shallower than the numbers on this site.
 
+!!! tip "Do it with your own numbers"
+    The [ratio calculator](scenario-lab.md#3-ratio-calculator) takes these eight inputs and benchmarks the result against the four carriers, and the [stress lab](scenario-lab.md#1-stress-lab) takes your revenue, cost and cash. Everything runs in your browser — nothing is uploaded.
+
 ## Setting internal thresholds
 
 A workable early-warning ladder, built from your own breakeven shock `B`:
