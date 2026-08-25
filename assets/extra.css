@@ -1,0 +1,46 @@
+/* Numeric tables read better right-aligned and in tabular figures: the columns
+   line up on the decimal point instead of drifting with digit width. */
+.md-typeset table:not([class]) td:not(:first-child),
+.md-typeset table:not([class]) th:not(:first-child) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.76rem;
+}
+
+/* Charts are exported at chart-native width; let them breathe and never
+   overflow the column on a phone. */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+}
+
+.md-typeset figure img {
+  border-radius: 2px;
+}
+
+.md-typeset figcaption {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.4rem;
+}
+
+/* The lede paragraph under each page title. */
+.md-typeset .lede {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Rank chips used in the composite table. */
+.md-typeset .rank {
+  display: inline-block;
+  min-width: 1.4em;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0 0.35em;
+  font-weight: 700;
+  background: var(--md-default-fg-color--lightest);
+}
